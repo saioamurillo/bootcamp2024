@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let caracteres
+        caracteres=parseInt(prompt("Itroduce el número de CARACTERES de la fila"))
+
+        let repeticiones
+        repeticiones=parseInt(prompt("Introduce el número de REPETICIONES de los caracteres"))
+        
+        let resultado = ""; 
+    
+        for (let j = 1; j <= repeticiones; j = j + 1) {
+            for (let i = 1; i <= caracteres; i = i + 1) {
+                if (j % 2 == 0) {
+                    // En las filas pares, los pares son "X" y los impares son "0"
+                    if (i % 2 == 0) {
+                        resultado = resultado + "X";
+                    } else {
+                        resultado = resultado + "0";
+                    }
+                } else {
+                    // En las filas impares, los pares son "0" y los impares son "X"
+                    if (i % 2 == 0) {
+                        resultado = resultado + "0";
+                    } else {
+                        resultado = resultado + "X";
+                    }
+                }
+            }
+            
+            console.log(resultado);
+            resultado = ""; // Reiniciar la cadena para la siguiente fila
+        }
+    </script>
+</body>
+</html>
