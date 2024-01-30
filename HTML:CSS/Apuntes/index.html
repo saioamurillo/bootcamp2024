@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" placeholder="John Doe" name="nombre" value="Peio">
+        <br>
+        <input id="password" onblur="checkLength()" type="password" placeholder="******" name="password">
+        <br>
+        <textarea rows="10" cols="20" name="opinion"></textarea>
+        <br>
+        <input id="BMW" type="checkbox" value="BMW" name="carOne"><label for="BMW">BMW</label>
+        <input type="checkbox" value="Mazda" name="carTwo">Mazda
+        <input type="checkbox" value="Audi" name="carThree">Audi
+        <input type="checkbox" value="Toyota" name="carFour">Toyota
+        <br>
+        <input type="radio" value="BMW" name="car" checked>BMW
+        <input type="radio" value="Mazda" name="car">Mazda
+        <input type="radio" value="Audi" name="car">Audi
+        <input type="radio" value="Toyota" name="car">Toyota
+        <br>
+        <label for="avenger">Avengers</label>
+        <select id="avenger" name="avenger">
+            <option value="" selected disabled>Elige tu superheroe</option>
+            <option value="Hulk">Hulk</option>
+            <option value="Amer">Amer</option>
+            <option value="Ant">Ant</option>
+        </select>
+        <input type="hidden" value="78978978G" name="dni">
+        <input type="file" name="document">
+        <input type="submit" value="Enviar">
+        <button type="reset">Vaciar</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

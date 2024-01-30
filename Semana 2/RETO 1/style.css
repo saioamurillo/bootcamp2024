@@ -1,0 +1,507 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Roboto:wght@100&display=swap');
+  
+body{
+    margin:0;
+
+        display: flex;
+    flex-direction: column;
+    
+}
+#nav1{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: 
+    linear-gradient(
+      orange, 
+      rgba(255, 166, 0, 0.66),
+      rgb(255, 115, 0, 0.1)),
+    url(_a9f1cf64-1086-4a70-addf-b00cb8aff7ea.jpeg);
+    
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    
+    z-index: 100; /* Ajusta según sea necesario */
+}
+
+#miH1{
+    position: sticky;
+    top: 350px;
+    overflow: hidden;
+    margin: 12px;
+ 
+  }
+
+h1{
+    color: white;
+    font-family: 'Moirai One', system-ui;
+    font-weight:bold;
+    font-size: 50px;
+    margin:5px;
+    align-items: center;
+    text-shadow: 2px 2px 7px rgb(96, 96, 96);
+   
+    
+}
+
+h1::first-letter {
+    font-size: 60px;
+}
+
+
+h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size:27px;
+    margin:5px;
+    text-shadow: 2px 2px 7px rgb(96, 96, 96);
+}
+
+#flecha{
+    font-size: 50px;
+    animation-name: flecha;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  
+    
+}
+ 
+@keyframes flecha {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+
+}
+
+.scrolling {
+    margin-top: -50px; /* Ajusta este valor según tu preferencia */
+  }
+  
+
+.boton{
+    display:flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:15px;
+    padding: 15px;
+    list-style: none;
+    color: white;
+    border-radius: 10px;
+    background-color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    width: 250px;
+    box-shadow: 4px 4px 8px rgb(183, 183, 183);
+    border: 0px;
+    
+    transition: 0.5s;
+    
+}
+
+.boton:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+a{
+    text-decoration: none;
+}
+
+#cuadrado{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+    
+}
+
+.parrafo{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin:30px;
+    text-align: center;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#negrita{
+    font-size: larger;
+    font-weight: bold;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.favoritos{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h3{
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size:17px;
+    margin-top:20px;
+
+}
+
+#caja{
+    display: block;
+    min-height: 290px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/337/799/non_2x/icon-image-not-found-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: 225px;
+    background-position: top;
+   
+    
+    
+    /* background-color: orange;
+    box-shadow: 4px 4px 8px rgb(183, 183, 183); */
+}
+
+#caja img {
+    max-width: 100%; /* Hace que las imágenes no excedan el ancho del contenedor */
+    max-height: 100%; /* Hace que las imágenes no excedan la altura del contenedor */
+}
+
+#apartadofavs{
+    margin-top:30px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 20
+  }
+
+#formulario{
+   display:grid;
+   place-items: center;
+}
+
+#tituloatributos{
+
+    margin-top: 20px;
+}
+
+#selector{
+    /* display: flex;
+    justify-content: center; */
+    
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size:13px;
+    margin:5px;
+    text-align: center;
+
+}
+
+
+li{
+    list-style: none;
+    padding: 0px;
+    margin:5px;
+    color:gray;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+
+
+#textinput{
+
+ display: flex;
+ justify-content: center;
+    height: 30px;
+    margin: 20px;
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/* pagina2 */
+
+/* input[type="radio"]:checked + label::after{
+    color: orange;
+  } */
+
+#nav2{
+    background-image: 
+    linear-gradient(
+      orange, 
+      rgba(255, 166, 0, 0.66)),
+    url(_a9f1cf64-1086-4a70-addf-b00cb8aff7ea.jpeg);
+    
+    background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#titulo2{
+    color: white;
+    font-family: 'Moirai One', system-ui;
+    font-weight:bolder;
+    font-size: 35px;
+    margin:5px;
+    align-items: center;
+    text-align: left;
+    text-shadow: 2px 2px 7px rgb(96, 96, 96);    
+
+}
+
+#titulo2::first-letter {
+    font-size: 45px;
+}
+
+
+#subtitulo2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size:20px;
+    margin:5px;
+    padding-bottom: 15px;
+    text-shadow: 2px 2px 7px rgb(96, 96, 96);
+
+    
+    
+}
+
+#contenedorLogo{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#caja2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 25px;
+}
+
+#caja2 img {
+    max-width: 80%; /* Hace que las imágenes no excedan el ancho del contenedor */
+    max-height: 100%; /* Hace que las imágenes no excedan la altura del contenedor */
+}
+
+#añadirfavorito{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15px;
+    padding: 15px;
+    background-color: white;
+    color: orange;
+    width: 210px;
+    height: 15px;
+    
+}
+
+#home{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin:30px;
+    padding: 15px;
+    background-color: white;
+    color: orange;
+    width: 124px;
+    height: 15px;
+    
+}
+
+#selector ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    flex-direction: column; /* Cambia la dirección a columna */
+}
+
+#selector li {
+    cursor: pointer;
+    color: gray;
+}
+
+#selector input[type="radio"]:checked + label {
+    color: orange;
+}
+
+.footer{
+    background-color: orange;
+    height: 45px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding:20px ;
+    margin-top: auto;
+
+}
+
+footer{
+
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+}
+
+
+/* ordenador */
+
+@media (min-width: 800px) {
+    h1{
+
+        color: white;
+        font-family: 'Moirai One', system-ui;
+        font-weight:bolder;
+        font-size: 50px;
+        margin:5px;
+        align-items: center;
+
+    }
+
+    h1::first-letter {
+        font-size: 60px;
+    }
+
+    h2{
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: lighter;
+        font-size:28px;
+        margin:5px;
+    }
+
+    #caja{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      
+        
+    }
+
+    #caja img {
+        max-width: 50%; /* Hace que las imágenes no excedan el ancho del contenedor */
+        /* max-height: 50%; Hace que las imágenes no excedan la altura del contenedor */
+        padding-bottom: 10px;
+    }
+
+    #caja p{
+
+        color: orange;
+    }
+
+    h3{
+        color: orange;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: light;
+        font-size:20px;
+        margin-top:15px;
+    
+    }
+
+    .pagina{
+     font-size: large;
+     width: 300px;
+    }
+
+    /* pagina2 */
+
+
+    #nav2{
+        display:flex;
+        justify-content: center;
+        background-color:orange;
+    }
+    
+    #titulo2{
+        color: white;
+        font-family: 'Moirai One', system-ui;
+        font-weight:bolder;
+        font-size: 40px;
+        margin:5px;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        padding-top: 30px;
+      
+    
+    }
+    
+    #titulo2::first-letter {
+        font-size: 50px;
+    }
+    
+    
+    #subtitulo2{
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: lighter;
+        font-size:23px;
+        margin:5px;
+        padding-bottom: 30px;
+    }
+    
+    #caja2{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 40%; /* Hace que las imágenes no excedan el ancho del contenedor */
+        max-height: 40%; 
+    }
+
+    #caja2 img {
+        max-width: 60%;
+    }
+}
+    /* img{
+       
+       max-height: 350px;
+
+    
+    
+    #añadirfavorito{
+        color: orange;
+        width: 200px;
+        height: 60px;
+        font-size: 15px;
+    }
+
+    li{
+        font-size:15px;
+    }
+}
+

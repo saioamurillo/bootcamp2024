@@ -1,0 +1,62 @@
+
+
+.lista{
+    
+    font-size: small;
+}
+
+p{
+    background-color: purple;
+    transition: 2s;
+    width: 80%;
+    font-size: 14px;
+}
+
+h2{
+    background-color: yellow;
+    transition: 2s;
+    width: 15%;
+    font-size: 14px;
+}
+
+
+@media (max-width: 600px) {
+    p{
+        background-color: red;
+        transition: 2s;
+        width: 100%;
+        font-size: 11px;
+    }
+
+    h2{
+        background-color: red;
+        transition: 2s;
+        width: 100%;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    p{
+        background-color: green;
+        transition: 2s;
+        width: 60%;
+        font-size: 12px;
+    }
+
+    h2{
+        background-color: blue;
+        transition: 2s;
+        width: 30%;
+        font-size: 12px;
+    }
+}
+
+
+ 
+
+
+
+
+
+

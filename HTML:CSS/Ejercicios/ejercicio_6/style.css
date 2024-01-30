@@ -1,0 +1,19 @@
+#cabecera{
+
+    color: blueviolet;
+    font-size: medium;
+}
+
+#contenido{
+
+    color:black;
+    font-size: small;
+    font-weight: bold;
+    background-color: coral;
+}
+
+#pie{
+
+    color:red;
+    font-size: large;
+}

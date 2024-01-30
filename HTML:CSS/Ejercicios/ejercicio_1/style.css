@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 100%;
+    height: 1800px;
+    background-image: url('https://picfiles.alphacoders.com/300/300273.jpg');
+}

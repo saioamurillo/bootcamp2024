@@ -1,0 +1,13 @@
+li:first-child{
+ color:green
+}
+
+
+
+li:nth-child(even){
+    color:red
+}
+
+li:last-child{
+    color:green
+   }

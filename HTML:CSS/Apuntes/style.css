@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-list {
+    color: red;
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+    width: 70%;
+    border: 1px solid green;
+}
+
+.car-list:hover {
+    width: 50%;
+}
+
+li:first-child {
+    color: brown;
+}
+
+li:nth-child(even){
+    color: green;
+}
+
+li:nth-child(odd){
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color:blueviolet;
+}
+
+a:hover{
+    color:coral;
+}
+
+a:active{
+    color: green;
+}
+
+p::first-letter{
+    font-size: 40px;
+    color: red;
+}
+
+p::first-line{
+    color: green;
+}
+
+div{
+    width: 100%;
+    height: 1000px;
+    /* background-image: url('https://external-preview.redd.it/eZ6Uvn46UfbeOPoleKa36-DjT3Kp8AIf80NzKN1g_bg.jpg?auto=webp&s=71af0dbeca43f7bf63da7355c4f974c53e7e48b6');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    /* background-attachment: fixed; */
+    background: url('https://external-preview.redd.it/eZ6Uvn46UfbeOPoleKa36-DjT3Kp8AIf80NzKN1g_bg.jpg?auto=webp&s=71af0dbeca43f7bf63da7355c4f974c53e7e48b6') no-repeat center center / cover fixed;
+    
+}
+
+@media (min-width: 500px) and (max-width: 700px){
+    p{
+        max-width: 30%;
+    }
+
+    p::first-letter {
+        font-size: 60px;
+    }
+
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        transition: 2s;
+        width: 70%;
+    }
+}
+
+/* @media (min-width: 750px){
+    div {
+        background-color: blue;
+        transition: 2s;
+        width: 40%;
+        font-family: 'Roboto mono';
+    }
+} */
